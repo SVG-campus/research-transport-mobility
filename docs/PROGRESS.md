@@ -1,6 +1,6 @@
 # Pillar progress — `research-transport-mobility`
 
-**Overall solution proximity (rubric): ~24%**.
+**Overall solution proximity (rubric): ~26%**.
 
 See: [meta `docs/PILLAR_PROGRESS.md`](https://github.com/SVG-campus/Research-Apriori/blob/main/docs/PILLAR_PROGRESS.md).
 
@@ -8,7 +8,7 @@ See: [meta `docs/PILLAR_PROGRESS.md`](https://github.com/SVG-campus/Research-Apr
 |------|---:|------|
 | Charter + prereg | 40 | Multiple transport notebooks |
 | Layer A / nulls | 16 | Sensitivity + MC on uncertain inputs not formalized |
-| Reproducibility | 40 | Submodule CI |
+| Reproducibility | **43** | `runs/smoke.yaml` |
 | Domain data | 12 | GTFS / mobility APIs not yet pinned |
 
 ## Links
