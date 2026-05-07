@@ -12,6 +12,8 @@ Optional rows may set `enabled: false` so future charter notebooks stay listed w
 
 **`notebooks/CHARTER_EXTENDED_LIGHT.ipynb`** (synthetic mean + run card) runs next as a light Layer A–shaped check.
 
+**`notebooks/CHARTER_MOBILITY_NEWS_PROXY_STREAM_SMOKE.ipynb`** runs next: small streaming slice of `fancyzhx/ag_news` + y-shuffle null + run card (NLP proxy until OD data pins).
+
 **`FUTURE_CHARTER_SLOT.ipynb`** is listed disabled with **no** committed file: replace that row with a real path when you add a heavier charter notebook, verify headless execution locally, then set `enabled: true`.
 
 ## Promotion audit (canonical numbers)
