@@ -9,7 +9,18 @@ huggingface:
     split: train[:2%]
     streaming: true
     note: Tiny GLUE stream for CI / dataloader sanity — replace with domain datasets as charters land.
+  - repo_id: fancyzhx/ag_news
+    split: train[:1%]
+    streaming: true
+    note: News text proxy for NLP pipelines until trajectory / OD matrices are pinned.
 
 kaggle: []
 
-search_keywords: [urban mobility open, GTFS static, rocket trajectory simulation]
+
+search_keywords: []
+
+reference_streams:
+  - name: OpenStreetMap (reference)
+    url: https://www.openstreetmap.org
+    note: Graph / routing priors; respect tile usage policy and regional extracts.
+
