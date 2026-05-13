@@ -12,7 +12,7 @@ huggingface:
   - repo_id: fancyzhx/ag_news
     split: train[:1%]
     streaming: true
-    note: Pinned for `CHARTER_MOBILITY_NEWS_PROXY_STREAM_SMOKE` CI + pytest stream smoke (NLP proxy until OD data pins).
+    note: CI/news stream proxy for `CHARTER_MOBILITY_NEWS_PROXY_STREAM_SMOKE` + pytest (not mobility ground truth); replace when on-charter OD, transit, or network tables pin.
 
 kaggle: []
 
@@ -23,4 +23,7 @@ reference_streams:
   - name: OpenStreetMap (reference)
     url: https://www.openstreetmap.org
     note: Graph / routing priors; respect tile usage policy and regional extracts.
+  - name: Domain-native pins (next)
+    url: https://gtfs.org/
+    note: Next on-charter pins should target licensed GTFS or other static route graphs, probe counts, or similar mobility tables—add real Hub/API identifiers only when a charter commits; do not invent repo_id placeholders.
 
